@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MazeMaster"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/david/Documents/Misc Coding Projects/MazeMaster/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/david/Documents/Misc Coding Projects/MazeMaster/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/david/Documents/Misc Coding Projects/MazeMaster/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFML">
+				<Option output="/home/david/Documents/Misc Coding Projects/MazeMaster/cmake-build-debug/SFML" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/Documents/Misc Coding Projects/MazeMaster/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/Documents/Misc Coding Projects/MazeMaster/headers"/>
+					<Add directory="/home/david/Documents/Misc Coding Projects/MazeMaster/SFML_INCLUDE_DIR"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFML"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SFML/fast">
+				<Option output="/home/david/Documents/Misc Coding Projects/MazeMaster/cmake-build-debug/SFML" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/david/Documents/Misc Coding Projects/MazeMaster/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/david/Documents/Misc Coding Projects/MazeMaster/headers"/>
+					<Add directory="/home/david/Documents/Misc Coding Projects/MazeMaster/SFML_INCLUDE_DIR"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 SFML/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/david/Documents/Misc\ Coding\ Projects/MazeMaster/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/headers/engine.hpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/headers/graphs/astarsolver.hpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/headers/graphs/graph.hpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/headers/graphs/graphrenderer.hpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/headers/graphs/gridgraph.hpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/headers/graphs/mazegraph.hpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/headers/graphs/mazerenderer.hpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/headers/graphs/obstaclegraph.hpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/headers/graphs/obstaclegraphrenderer.hpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/headers/gui/button.hpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/headers/gui/mainwindow.hpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/headers/gui/startupwindow.hpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/src/engine.cpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/src/graphs/astarsolver.cpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/src/graphs/graphrenderer.cpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/src/graphs/gridgraph.cpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/src/graphs/mazegraph.cpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/src/graphs/mazerenderer.cpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/src/graphs/obstaclegraph.cpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/src/graphs/obstaclegraphrenderer.cpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/src/gui/button.cpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/src/gui/mainwindow.cpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/src/gui/startupwindow.cpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/src/main.cpp">
+			<Option target="SFML"/>
+		</Unit>
+		<Unit filename="/home/david/Documents/Misc Coding Projects/MazeMaster/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
