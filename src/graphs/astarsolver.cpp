@@ -150,11 +150,6 @@ bool AStarSolver::doOneIteration() {
     else {
         // Currently lowest fScore
         node current = openSet[0]; // Guaranteed to be non-empty
-//        if (openSet.size() >= 2 && fScore[current] == fScore[openSet[1]]) {
-//            cout << "Tie: (" << current.first << ", " << current.second << "), (" << openSet[1].first << ", " << openSet[1].second << ")" << endl;
-//        }
-
-
         if (current == dest)
             return true; // Conclude process
         // Remove the current node from open set
@@ -175,7 +170,7 @@ bool AStarSolver::doOneIteration() {
                 cameFrom[neighb] = current;
                 gScore[neighb] = tentative_gScore; // Make tentative score official
                 float h = heuristic(neighb);
-                cout << tentative_gScore << ", " << h << " = " << tentative_gScore + h << endl;
+//                cout << tentative_gScore << ", " << h << " = " << tentative_gScore + h << endl;
                 fScore[neighb] = tentative_gScore  + heuristic(neighb); // Make fScore
                 // If neighbor is not in the open set, push it
                 if (find(openSet.begin(), openSet.end(), neighb) == openSet.end()) {

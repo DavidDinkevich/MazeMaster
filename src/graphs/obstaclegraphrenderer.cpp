@@ -9,6 +9,7 @@ using namespace sf;
 
 ObstacleGraphRenderer::ObstacleGraphRenderer(const Graph *graph, float cellW, float cellH)
 : GraphRenderer(graph, cellW, cellH) {
+    setPathStyle(DOTS);
 }
 
 void ObstacleGraphRenderer::drawGraph(RenderWindow &window, const Vector2f &topLeft) const {

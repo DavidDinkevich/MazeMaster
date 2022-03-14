@@ -130,7 +130,7 @@ void MainWindow::handleInput() {
         }
         if (event.type == Event::MouseButtonPressed) {
             Vector2i mouseCoords = Mouse::getPosition(window);
-            cout << mouseCoords.x << ", " << mouseCoords.y << endl;
+//            cout << mouseCoords.x << ", " << mouseCoords.y << endl;
             // Check if one of the buttons was clicked
             for (auto buttonPtr : buttons) {
                 if (buttonPtr->containsPoint({(float)mouseCoords.x, (float)mouseCoords.y})) {
@@ -187,7 +187,7 @@ void MainWindow::draw() {
             RectangleShape back({
                 window.getSize().x - controlPanelWidth, (float) window.getSize().y});
             back.setPosition(controlPanelWidth, 0);
-            back.setFillColor(Color::Cyan);
+            back.setFillColor(Color::White);
             window.draw(back);
             break;
         }
