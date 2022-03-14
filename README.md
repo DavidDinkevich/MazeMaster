@@ -1,4 +1,4 @@
-# MazeMaster
+# Maze Master
 A fun little low-latency C++ project that graphically implements maze generation algorithms and solves them with different path-finding algorithms.
 <br><br>
 There are two modes in the program:
